@@ -1,0 +1,20 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.body {
+  background-color: rgb(172, 98, 55);
+}
+
+.contenedor {
+  margin-top: 5%;
+}
+
+.card {
+  width: 19rem;
+}
+
+/*#  sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */

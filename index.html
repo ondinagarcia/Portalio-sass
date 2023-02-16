@@ -5,59 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Portafolio</title>
 </head>
 <body class="body">
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-success">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">Quien soy</a>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Mis proyectos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Habilidades</a>
-                  </li>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Ledis Martinez</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/foto.jpeg" alt="foto"></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="navbar-collapse collapse show" id="navbarResponsive" style="">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger active" href="#sobre mi">Sobre mi</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experiencia">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#educacion">Educacion</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cursos">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#intereses">Intereses</a></li>
                 </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
+
             </div>
+        </nav>
     </header>
 <main>
 
-
-             <div class="contenedor">
-                <h1>Quien soy</h1>
-                    <hr>
-                         <div class="card">
-                     <div class="card-header">
-                             Featured
-                             <img class="card" src="assets/img/foto.jpeg" alt="card">
-                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title"> Una estudiante de front-end</h5>
-                            <p class="card-text">.Con diferentes tipos de habilidades</p>
-                         <a href="#" class="btn btn-primary">Quien soy</a>
-                        </div>
-                     </div>
+    <div class="contenedor">
+        <h1>Quien soy</h1>
+            <hr>
+                 <div class="card">
+             <div class="card-header">
+                     Featured
+                     <img class="card" src="assets/img/foto.jpeg" alt="card"><h2>Ledis Martinez</h2>
+                 </div>
+                <div class="card-body">
+                    <h5 class="card-title"> Una estudiante de front-end</h5>
+                    <p class="card-text">.Con diferentes tipos de habilidades</p>
+                 <a href="#" class="btn btn-primary">Quien soy</a>
+                </div>
              </div>
-
-
-
-
-    
+     </div>
+            
 </body>
 </html>

@@ -12,9 +12,13 @@
 }
 
 .card {
-  width: 19rem;
+  width: 300px;
+}
+
+summary {
+  justify-content: right;
 }
 
 /*#  sourceMappingURL=style.css.map */
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scs.map */

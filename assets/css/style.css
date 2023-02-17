@@ -11,8 +11,25 @@
   margin-top: 5%;
 }
 
-.card {
+#card__img {
   width: 300px;
+}
+
+summary {
+  justify-content: right;
+}
+
+.lateral {
+  height: 100vh;
+  position: fixed;
+}
+
+.lateral > div {
+  height: 100%;
+}
+
+main {
+  margin-left: 400px;
 }
 
 /*#  sourceMappingURL=style.css.map */

@@ -10,18 +10,35 @@
     margin-top: 5%;
 }
 
+#card__img{
+        width: 300px;
+        
+    }
 
+ .card{
+    border-radius: 30%;
+ }
 
-.card{
-    width: 300px;
     
 
-}
+
 
 summary{
     justify-content: right;
 }
 
+.lateral {
+    height: 100vh;
+    position: fixed;
+}
+
+.lateral > div {
+    height: 100%;
+}
+
+main {
+    margin-left: 400px;
+}
 
 
 

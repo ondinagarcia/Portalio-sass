@@ -11,8 +11,13 @@
   margin-top: 5%;
 }
 
-#card__img {
-  width: 300px;
+#perfil {
+  width: 100px;
+  margin-left: 25%;
+}
+
+.iconos {
+  margin-left: 38%;
 }
 
 summary {

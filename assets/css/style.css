@@ -31,6 +31,24 @@
   justify-content: center;
 }
 
+.card-title- {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: xx-large;
+}
+
+.card-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 100px;
+  margin-left: 25%;
+}
+
+.card-border-img {
+  width: 100%;
+  border-radius: 30%;
+  display: flex;
+  justify-content: center;
+}
+
 .iconos {
   margin-left: 38%;
 }

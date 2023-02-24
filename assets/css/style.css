@@ -94,6 +94,15 @@ main {
   background-color: #52484c;
 }
 
+.lm {
+  width: 100px;
+}
+
+#imagen {
+  border-radius: 25%;
+  border-style: groove;
+}
+
 /*#  sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */

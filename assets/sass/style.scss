@@ -10,6 +10,9 @@
     margin-top: 5%;
 }
 
+
+
+
 #perfil{
         width: 100px;
         margin-left: 25%;
@@ -59,6 +62,11 @@
     margin-left: 38%
 }
 
+.imagen-1{
+    width: 10%;
+    border-radius: 5%;
+    
+}
 summary{
     justify-content: right;
 }
@@ -95,7 +103,7 @@ main {
 .lista{
     align-items: center;
 }
-#caja{
+#mis-estudios{
     
     background-color: #52484c;
     
@@ -110,7 +118,52 @@ main {
     border-style: groove;
 }
 
+.sepa{
+    text-align: center;
+}
 
+.lime{
+    
+    font-size: xx-large;
+    text-decoration: hotpink;
+    background: -webkit-linear-gradient(#1cdfe6, #d8ec21);
 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
+
+.mile{
+    color: black;
+}
+
+.lemi{
+    padding: 1rem;
+    background: rgb(23,228,195);
+background: linear-gradient(90deg, rgba(23,228,195,1) 0%, rgba(111,139,230,1) 23%, rgba(225,233,12,1) 50%, rgba(122,109,240,1) 71%, rgba(14,249,242,1) 100%);
+}
+    
+
+.ponti{
+    padding: 0.4%;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(253, 228, 5) 0%, rgba(9,9,121,1) 35%, rgb(204, 7, 7) 100%);
+}
+.section{
+    width: 100vh;
+    padding: 2rem;
+}
+
+h2{
+    text-decoration: rgb(20, 20, 20);
+    font-style: italic;
+    background: -webkit-linear-gradient(#460505, #080808);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.container2{
+    text-align: center;
+
+}
 /*#  sourceMappingURL=style.css.map */
